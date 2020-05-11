@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_from"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:helperText="@string/beginning_range"
+        style="@style/fieldTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/from"
+            style="@style/fieldTextInputEditText"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_to"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/fieldTextInputLayout"
+        app:helperText="@string/end_range">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/to"
+            style="@style/fieldTextInputEditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

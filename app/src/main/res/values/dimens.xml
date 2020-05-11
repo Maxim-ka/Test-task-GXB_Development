@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_field_dialog">20sp</dimen>
+
+    <dimen name="indent_big">16dp</dimen>
+    <dimen name="indent">8dp</dimen>
+    <dimen name="indent_small">4dp</dimen>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/indent_big"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_expression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fieldTextInputLayout"
+            app:helperText="5+(x^2-9/3)*sqrt(3x)">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tiet_expression"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/expression"
+                style="@style/fieldTextInputEditText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <include layout="@layout/block_range" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/sw_api"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/indent_small"
+            android:text="@string/calculate_wolfram_alpha"
+            android:textSize="@dimen/text_size_field_dialog"/>
+
+        <Button
+            android:id="@+id/but_calculate"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:layout_margin="@dimen/indent_big"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="fieldTextInputLayout">
+        <item name="hintEnabled">true</item>
+        <item name="hintTextColor">@color/colorPrimaryDark</item>
+        <item name="hintTextAppearance">@android:style/TextAppearance.DeviceDefault.Small</item>
+        <item name="hintAnimationEnabled">true</item>
+        <item name="errorEnabled">true</item>
+        <item name="errorTextAppearance">@android:style/TextAppearance.DeviceDefault.Small</item>
+        <item name="errorTextColor">#FF0000</item>
+        <item name="helperTextEnabled">true</item>
+        <item name="helperTextTextColor">@color/colorAccent</item>
+        <item name="helperTextTextAppearance">@android:style/TextAppearance.DeviceDefault.Small</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_marginTop">@dimen/indent_small</item>
+        <item name="android:layout_marginBottom">@dimen/indent_small</item>
+        <item name="android:layout_marginStart">@dimen/indent</item>
+        <item name="android:layout_marginEnd">@dimen/indent</item>
+    </style>
+    
+    <style name="fieldTextInputEditText">
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textSize">@dimen/text_size_field_dialog</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+</resources>

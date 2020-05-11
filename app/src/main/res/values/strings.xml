@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Test task GXB_Development</string>
+    <string name="but_ok">OK</string>
+    <string name="result">result</string>
+    <string name="from">from</string>
+    <string name="to">to</string>
+    <string name="expression">expression</string>
+    <string name="calculate_wolfram_alpha">Calculate with Wolfram Alpha</string>
+    <string name="err_not_filled">The field is NOT filled</string>
+    <string name="beginning_range">beginning of range inclusive</string>
+    <string name="end_range">end of range inclusive</string>
+    <string name="err_function_no_solution">a function in a given range has no solution, specify a different range</string>
+    <string name="check_function">check the correctness of the function:\nX is a required variable\n
+        numbers, brackets, operations are written WITHOUT spaces,\n
+        pair of brackets,\n
+        square root - (sqrt ()),\n
+        multiplication - (^),\n
+        division - (/),\n
+        the fractional part of the number is separated by a dot (.)</string>
+    <string name="err_error">Error!</string>
+    <string name="err_no_network">No network, check internet settings</string>
+    <string name="err_timed_out">timed out, try again</string>
+    <string name="attention">Attention!</string>
+</resources>
