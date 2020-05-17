@@ -9,7 +9,9 @@ import kotlin.coroutines.Continuation
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 
-class Request : Derivable{
+class Request(private val retrofitable: Retrofitable) : Derivable{
+
+    override fun getRetrofitable(): Retrofitable = retrofitable
 
     override fun <T> getCallBack(continuation: Continuation<T>) : Callback<T> {
         return object : Callback<T> {

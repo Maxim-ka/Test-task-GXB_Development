@@ -2,6 +2,7 @@ package com.reschikov.gxbdevelopment.testtask.di
 
 import com.reschikov.gxbdevelopment.testtask.calculation.Calculator
 import com.reschikov.gxbdevelopment.testtask.network.Request
+import com.reschikov.gxbdevelopment.testtask.network.wolfram.WolframRetrofit
 import com.reschikov.gxbdevelopment.testtask.parser.ExpressionParsing
 import com.reschikov.gxbdevelopment.testtask.parser.ModuleParser
 import com.reschikov.gxbdevelopment.testtask.ui.Calculable
@@ -22,5 +23,5 @@ val viewModelModule = module {
 }
 
 val netModule = module {
-    factory<Derivable> { Request() }
+    factory<Derivable> { Request(WolframRetrofit()) }
 }

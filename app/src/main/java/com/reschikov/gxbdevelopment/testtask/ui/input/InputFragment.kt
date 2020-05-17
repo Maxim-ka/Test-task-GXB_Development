@@ -8,6 +8,7 @@ import androidx.lifecycle.Observer
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import com.reschikov.gxbdevelopment.testtask.R
+import com.reschikov.gxbdevelopment.testtask.network.CheckNetWork
 import com.reschikov.gxbdevelopment.testtask.ui.Computationable
 import com.reschikov.gxbdevelopment.testtask.ui.MainModel
 import kotlinx.android.synthetic.main.block_range.*

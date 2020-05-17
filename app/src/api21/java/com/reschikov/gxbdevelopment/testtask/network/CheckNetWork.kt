@@ -1,4 +1,4 @@
-package com.reschikov.gxbdevelopment.testtask.ui.input
+package com.reschikov.gxbdevelopment.testtask.network
 
 import android.content.Context
 import android.net.ConnectivityManager
